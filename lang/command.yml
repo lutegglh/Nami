@@ -1,5 +1,5 @@
-START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
+START_COMMAND : ["mulai"]
+HELP_COMMAND : ["bantuan"]
 SEND_COMMAND : ["send"]
 HIGH_PROMOTE : ["highpromote"]
 PROMOTE : ["promote","midpromote","fullpromote"]
