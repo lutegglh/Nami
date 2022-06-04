@@ -18,7 +18,7 @@ import time
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 
 
-@app.on_message(filters.command("stats"))
+@app.on_message(filters.command("statss"))
 async def gstats(_, message):
     response = await message.reply_text(text="Getting Stats!"
     )
