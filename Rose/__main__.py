@@ -185,8 +185,8 @@ async def start(client, message: Message, _):
    My name is Rose, an  advanced telegram Group management Bot For helpYou Protect Your Groups & Suit For All Your Needs. 
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
-⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
+⚒ Send Me /bantuan For Get Commands. 
+👨‍💻Developer : @luteg_glh
 """,
             reply_markup=home_keyboard_pm,
         )
@@ -277,8 +277,8 @@ async def startcq(client,CallbackQuery, _):
 You Protect Your Groups & Suit For All Your Needs. 
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
- ⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
+ ⚒ Send Me /bantuan For Get Commands. 
+👨‍💻Developer : @luteg_glh
 """,
             disable_web_page_preview=True,
             reply_markup=home_keyboard_pm)
@@ -329,7 +329,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma"
+            + "\n👨‍💻Developer : @luteg_glh"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
