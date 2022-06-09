@@ -1,4 +1,4 @@
-START_COMMAND : ["mulai"]
+START_COMMAND : ["start"]
 HELP_COMMAND : ["bantuan"]
 SEND_COMMAND : ["send"]
 HIGH_PROMOTE : ["highpromote"]
